@@ -1,194 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(224, 224, 224, 0.466);
-    margin: 0px;
+}
+.colorVerde {
+    color: rgb(0, 0, 0);
 }
 
-/* ENCABEZADO */
-
-
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  
-  
+.logo {
+    width: 200px;
 }
 
-ul li {
-    list-style-type: none;
-    display: inline-block;
-    
-    
-}
-
-ul li a {
-    text-decoration: none;
+.anclas {
+    font-size: 1.3rem;
     color: black;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 30px;
+    font-weight: 500;
+}
+
+.anclas:hover {
+    text-decoration: underline;
+    color:#007bc6;
+}
+
+.colorFondo {
+    background-color: rgb(255, 255, 255);
+}
+
+.imgCarousel {
+    height: 350px;
+    object-fit: cover;
+}
+
+.botonMio {
+    background-color: #007bc6;
+    color: #fafafa;
+}
+
+.botonMio:hover {
+    background-color: #fafafa;
+    color: #007bc6;
+    border: 1px solid black;
+}
+
+.contenedor1 {
+    min-height: 100px; /* ajusta el valor según tus necesidades */
+    margin-bottom: 100px;
+  }
+
+  .contenedor2 {
+    height: 600px;
+  }
+
+  .imgCarousel {
+    height: 600px
     
-}
+  }
 
-header {
-    background-color: #628272;
-    padding: 10px;
-    margin: 0
-    
+  .contenedor2 {
+    margin-bottom: 50px;
+  }
 
-    
-
-    ;
-}
-
-/* MAIN */
-
-main {
-    text-align: center;
-}
-
-main p {
-    margin: 10px 70px;
-}
-
-main img {
-    margin-top: 30px;
-}
-
-/* CONTENEDOR GATITO */
-
-.contenedorinicioarq {
-    margin-left: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-/* FOOTER  */
-
-
-.piePagina {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: #628272 2px solid;
-}
-
-.piePagina li {
-    margin-top: 10px;
-    justify-content: center;
-    
-   
-}
-
-/* PRODUCTOS */
-
-.contenedorproyectos img {
-    width: 600px;
-    margin: 40px;
-}
-
-.contenedorobras {
-
-    margin-left: 15px;
-    justify-content: center;
-    
-    
-}
-
-main iframe {
-    margin: 60px;
-}
-
-/* EQUIPO */
-
-.contenedorequipo img {
-    margin-top: 30px;
-}
-
-.piePagina{
-    display: flex;
-    background-color: #628272;
-    margin-top: 60px;
-    
-}
-
-.icono {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-}
-
-.iconoredes{
-    display: flex;
-    justify-content: center;
-    margin-left: 830px;
-}
-
-.iconofacebook{
-    margin-right: 10px;
-    justify-content: center;
-}
-
-.iconoinstagram{
-    margin-right: 10px;
-    justify-content: center;
-}
-
-.iconotwitter{
-    margin-right: 10px;
-    justify-content: center;
-}
-
-
-
-.contenedorformulario {
-  width: 50%;
-  margin-left: 0;
-  margin-top: 60px;
-  
-  
-}
-
-label {
-  width: 50%;
-  display: block;
-  margin-bottom: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 50%;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="submit"] {
-  width: 50%;
-  padding: 10px;
-  background-color: #535353;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #628272;
- 
-}
-
-.contenedorformularioymapa{
-    display: flex;
-    font-weight: bold;
-    
-}
