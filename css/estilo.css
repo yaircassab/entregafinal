@@ -1,62 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
 .colorVerde {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .logo {
-    width: 200px;
+  width: 200px;
 }
 
 .anclas {
-    font-size: 1.3rem;
-    color: black;
-    font-weight: 500;
+  font-size: 1.3rem;
+  color: black;
+  font-weight: 500;
 }
 
 .anclas:hover {
-    text-decoration: underline;
-    color:#007bc6;
+  text-decoration: underline;
+  color: #007bc6;
 }
 
 .colorFondo {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .imgCarousel {
-    height: 350px;
-    object-fit: cover;
-}
-
-.botonMio {
-    background-color: #007bc6;
-    color: #fafafa;
-}
-
-.botonMio:hover {
-    background-color: #fafafa;
-    color: #007bc6;
-    border: 1px solid black;
+  height: 350px;
+  object-fit: cover;
+  height: 600px;
 }
 
 .contenedor1 {
-    min-height: 100px; /* ajusta el valor según tus necesidades */
-    margin-bottom: 100px;
-  }
+  min-height: 100px;
+  margin-bottom: 100px;
+}
 
-  .contenedor2 {
-    height: 600px;
-  }
+.contenedor2 {
+  height: 600px;
+  margin-bottom: 50px;
+}
 
-  .imgCarousel {
-    height: 600px
-    
-  }
-
-  .contenedor2 {
-    margin-bottom: 50px;
-  }
-
+/*# sourceMappingURL=estilo.css.map */

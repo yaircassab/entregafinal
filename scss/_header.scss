@@ -1,0 +1,35 @@
+@mixin anclas {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.colorVerde {
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    width: 200px;
+}
+
+.anclas {
+    @include anclas
+    
+}
+
+.anclas:hover {
+    text-decoration: underline;
+    color:#007bc6;
+}
+
+.colorFondo {
+    background-color: rgb(255, 255, 255);
+}
+
+
