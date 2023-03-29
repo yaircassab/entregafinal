@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   font-family: "Roboto", sans-serif;
@@ -34,12 +35,48 @@ body {
 
 .contenedor1 {
   min-height: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .contenedor2 {
   height: 600px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: gray;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.card-img-top {
+  height: 600px; /* ajusta la altura de las imágenes */
+  object-fit: cover; /* recorta las imágenes para que tengan la misma proporción */
+}
+
+.contenedormapa {
+  display: block;
+  margin: 0;
 }
 
 /*# sourceMappingURL=estilo.css.map */
